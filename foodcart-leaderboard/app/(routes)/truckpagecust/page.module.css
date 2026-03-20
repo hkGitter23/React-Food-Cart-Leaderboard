@@ -1,0 +1,80 @@
+:global(body) {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #f7f7f7;
+}
+
+.page {
+  width: 100%;
+}
+
+.editor {
+  max-width: 900px;
+  margin: 40px auto 20px auto;
+  background-color: #168bf9;
+  padding: 40px 50px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+  color: #fffefc;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.form textarea {
+  grid-column: span 2;
+  min-height: 90px;
+}
+
+.form input,
+.form textarea {
+  padding: 10px 12px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: none;
+}
+
+.preview {
+  max-width: 900px;
+  margin: 20px auto 60px auto;
+  background: white;
+  padding: 40px 50px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.preview h2 {
+  margin-top: 0;
+  font-size: 28px;
+}
+
+.preview p {
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+.photoGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 260px);
+  gap: 16px;
+  margin-bottom: 16px;
+  justify-content: start;
+}
+
+.photo {
+  width: 260px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+}

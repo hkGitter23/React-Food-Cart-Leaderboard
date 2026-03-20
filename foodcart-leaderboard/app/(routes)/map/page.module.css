@@ -1,0 +1,117 @@
+.container {
+	position: relative;
+	height: 82vh;
+	width: 100%;
+}
+
+.map {
+	height: 100%;
+	width: 100%;
+}
+
+.infoPanel {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 340px;
+	background-color: #ffffff;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	padding: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	z-index: 2;
+}
+
+.closeButton {
+	align-self: flex-end;
+	background: none;
+	border: none;
+	font-size: 1.5rem;
+	cursor: pointer;
+	color: #6b6b6b;
+	margin-bottom: 0.5rem;
+	line-height: 1;
+	z-index: 3;
+}
+
+.panelTitle {
+	margin: 0 0 0.5rem;
+	font-size: 1.5rem;
+}
+
+.panelAddress {
+	color: #6b6b6b;
+	margin-bottom: 0.5rem;
+}
+
+.panelRating {
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+
+.tabList {
+	display: flex;
+	gap: 0.5rem;
+	margin-bottom: 1rem;
+}
+
+.tabButton {
+	flex: 1;
+	padding: 0.5rem 0.75rem;
+	border-radius: 999px;
+	border: 1px solid #d0d0d0;
+	background-color: #ffffff;
+	color: #1a1a1a;
+	cursor: pointer;
+	text-transform: capitalize;
+	transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.tabButtonActive {
+	background-color: #ffa826;
+	color: #ffffff;
+	border-color: #ffa826;
+}
+
+.tabContent {
+	flex: 1;
+	overflow-y: auto;
+}
+
+.aboutText,
+.placeholderText {
+	margin-top: 0;
+}
+
+.menuList {
+	margin: 0;
+	padding-left: 1.2rem;
+}
+
+.menuItem {
+	margin-bottom: 0.5rem;
+}
+
+.loadingBadge {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	padding: 0.5rem 1rem;
+	background-color: #ffffff;
+	border-radius: 999px;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.errorToast {
+	position: absolute;
+	bottom: 1rem;
+	right: 1rem;
+	padding: 0.75rem 1rem;
+	background-color: #fee2e2;
+	color: #b91c1c;
+	border-radius: 8px;
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+	max-width: 280px;
+}
+

@@ -1,0 +1,68 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 18px 32px;
+	background: linear-gradient(135deg, #002d62, #004fa3);
+	color: white;
+	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+}
+
+/* pointer color + style
+ the visble changes in menubar when clicked and left alone */
+
+.brand {
+	font-size: 26px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+}
+
+/* The menu button's exact style, border, cursor affect, color, and font.
+*/
+
+.menuButton {
+	background: none;
+	border: none;
+	cursor: pointer;
+	color: white;
+	font-size: 26px;
+}
+
+/* Actual dropdown visible changes.
+ - Light Highlight of where the pointer is about to select an option.
+ - All dimensions from radius, shadow, width, padding
+ - background + color */
+
+.dropdown {
+	position: absolute;
+	top: 70px;
+	right: 32px;
+	background: white;
+	color: #002d62;
+	border-radius: 14px;
+	box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+	padding: 14px 0;
+	width: 220px;
+}
+
+.dropdown a {
+	display: block;
+	padding: 14px 22px;
+	text-decoration: none;
+	color: #002d62;
+	font-weight: 600;
+}
+
+
+
+.dropdown a:hover {
+	background: #f2f6ff;
+}
+
+.logout {
+	color: #c1121f;
+	font-weight: 700;
+}

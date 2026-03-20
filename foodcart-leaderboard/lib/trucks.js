@@ -1,0 +1,148 @@
+export const TRUCKS = [
+  {
+    id: "sues-lunch-truck",
+    name: "Sue's Lunch Truck (Kim's Dragon)",
+    category: "Asian",
+    location: "3141 Ludlow St (Food Truck Alley)",
+    priceRange: "$10-$15",
+    votes: 0,
+    menu: [],
+    style: { primary: "#E63946", secondary: "#F1FAEE", accent: "#A8DADC", cardStyle: "modern" }
+  },
+  {
+    id: "lennoxs-lunch-truck",
+    name: "Lennox's lunch truck",
+    category: "Sandwiches / Fries",
+    location: "3198 Ludlow St (Food Truck Alley)",
+    priceRange: "$8-$12",
+    votes: 0,
+    menu: [{ name: "something", price: "$12" }],
+    style: { primary: "#F4A261", secondary: "#FEFAE0", accent: "#264653", cardStyle: "rustic" }
+  },
+  {
+    id: "petes-little-lunch-box",
+    name: "Pete’s Little Lunch Box",
+    category: "Breakfast / Sandwiches",
+    location: "33rd St area (Infront of Race building & Buckley Green)",
+    priceRange: "$6-$12",
+    votes: 0,
+    menu: [
+      { name: "Bacon, Egg and Cheese" },
+      { name: "Sausage, Egg and Cheese" },
+      { name: "Cheesesteak" },
+      { name: "Hashbrown" },
+      { name: "Pork Roll" },
+    ],
+    style: { primary: "#FFB703", secondary: "#8ECAE6", accent: "#023047", cardStyle: "playful" }
+  },
+  {
+    id: "happy-sunshine",
+    name: "Happy Sunshine",
+    category: "Asian / Chinese",
+    location: "Arch St (Infront of Buckley Green)",
+    priceRange: "$10-$16",
+    votes: 0,
+    menu: [
+      { name: "Sandwiches" },
+      { name: "Cheesesteaks" },
+      { name: "Club Sandwiches" },
+      { name: "Hoagies" },
+      { name: "Beverages" },
+    ],
+    style: { primary: "#FFD60A", secondary: "#FB5607", accent: "#3A86FF", cardStyle: "bright" }
+  },
+  {
+    id: "kami",
+    name: "KAMI",
+    category: "Korean",
+    location: "33rd & Market St (Infront of Hagerty Library)",
+    priceRange: "$10-$16",
+    votes: 0,
+    menu: [
+      { name: "Bulgogi Beef with Udon Noodles" },
+      { name: "Vegetable Bibimbap with Multigrain Rice" },
+      { name: "Spicy Pork Bibimbap" },
+    ],
+    style: { primary: "#000000", secondary: "#D90429", accent: "#EDF2F4", cardStyle: "minimal" }
+  },
+  {
+    id: "chicken-land",
+    name: "Chicken land",
+    category: "Halal / Chicken / Loaded Fries",
+    location: "N 34th St (Under Summit Building)",
+    priceRange: "$10-$15",
+    votes: 0,
+    menu: [
+      { name: "Chicken Sandwich" },
+      { name: "2 Chicken Sandwich W/ Fries" },
+      { name: "Chicken Over Rice" },
+      { name: "Lamb Over Rice" },
+      { name: "Mix Over Rice" },
+      { name: "Loaded Chicken Fries" },
+      { name: "Chicken Combo 4pc" },
+      { name: "4 Pcs Chicken Combo" },
+      { name: "Fries" },
+      { name: "Banana Pudding" },
+    ],
+    style: { primary: "#FB8500", secondary: "#FFB703", accent: "#219EBC", cardStyle: "bold" }
+  },
+  {
+    id: "silver-halal",
+    name: "Silver FoodCart",
+    category: "Halal / Chicken / Beef / Lamb",
+    location: "N 34th St (Infront Summit Building & Saxbys)",
+    priceRange: "$8-$10",
+    votes: 0,
+    menu: [],
+    style: { primary: "#8D99AE", secondary: "#EDF2F4", accent: "#EF233C", cardStyle: "metallic" }
+  },
+  {
+    id: "wokworks-drexel",
+    name: "Wokworks Drexel",
+    category: "Bowls / Stir-Fry",
+    location: "Market St (Between Dak Rec Center & Library)",
+    priceRange: "$11-$13",
+    votes: 0,
+    menu: [],
+    style: { primary: "#588157", secondary: "#A3B18A", accent: "#344E41", cardStyle: "organic" }
+  },
+  {
+    id: "cucina-zapata",
+    name: "Cucina Zapata",
+    category: "Mexican",
+    location: "3101 Ludlow St (Food Truck Alley)",
+    priceRange: "$10-$16",
+    votes: 0,
+    menu: [
+      { name: "Chicken Satay Taco" },
+      { name: "Thai Short Rib Taco" },
+      { name: "Chicken Katsu Burrito" },
+      { name: "Cap’n Crunch Tilapia Burrito" },
+      { name: "Chicken Katsu Platter" },
+      { name: "Chicken Katsu Burger" },
+      { name: "Veggie Burger" },
+      { name: "Thai Coffee" },
+      { name: "Thai Tea" },
+      { name: "Taro Tea" },
+      { name: "Taro Coffee" },
+      { name: "Calamansi Tea with Honey" },
+      { name: "Tapioca Boba" },
+      { name: "Popping Boba" },
+    ],
+    style: { primary: "#7209B7", secondary: "#4CC9F0", accent: "#F72585", cardStyle: "neon" }
+  },
+  {
+    id: "nanus-hot-chicken",
+    name: "Nanu's Hot Chicken",
+    category: "Halal / Chicken / Loaded Fries / milkshakes",
+    location: "3301 Market St (Infront of Rush buidling)",
+    priceRange: "$10-$17",
+    votes: 0,
+    menu: [
+      { name: "Single Tender" },
+      { name: "Nanu's #2. 2 Chicken Sando W/ Fries" },
+      { name: "Banana Pudding" },
+    ],
+    style: { primary: "#D00000", secondary: "#FFBA08", accent: "#3F37C9", cardStyle: "fire" }
+  },
+];

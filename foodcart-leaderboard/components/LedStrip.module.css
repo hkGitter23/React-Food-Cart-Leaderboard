@@ -1,0 +1,46 @@
+.stripWrap {
+  width: 100%;
+  overflow: hidden;
+  height: 30px;
+  border-radius: 8px;
+
+  /* 🔵 Drexel Blue instead of black */
+  background: #07294D;
+
+  border: 2px solid #FFC600;
+  box-shadow: inset 0 0 12px rgba(0,0,0,0.4);
+}
+
+.stripInner {
+  display: flex;
+  width: max-content;
+  align-items: center;
+  height: 100%;
+
+  /* smoother + faster */
+  animation: marquee 18s linear infinite;
+}
+
+.stripText {
+  display: inline-block;
+  padding-right: 80px; /* spacing between repeats */
+  white-space: nowrap;
+
+  color: #FFC600;
+  font-weight: 900;
+  letter-spacing: 3px;
+  font-size: 14px;
+  text-transform: uppercase;
+
+  text-shadow: 0 0 8px rgba(255,198,0,0.8);
+}
+
+/* 🔥 FIXED LOOP — moves full width */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
